@@ -1,0 +1,11 @@
+<form [formGroup]="loginForm" (ngSubmit)="handleSubmit()">
+    <div>
+        <label for="firstName">First Name please</label>
+        <input type="text" formControlName="firstName">
+    </div>
+
+    <div>
+        <label for="lastName">Last Name please</label>
+        <input type="text" formControlName="lastName">
+    </div>
+</form>
